@@ -48,7 +48,8 @@ GEM
       awesome_nested_set (>= 2.0)
     acts_as_list (0.4.0)
       activerecord (>= 3.0)
-    addressable (2.3.6)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     ahoy_matey (1.0.0)
       addressable
       browser (>= 0.4.0)
@@ -335,6 +336,7 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    public_suffix (4.0.6)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
